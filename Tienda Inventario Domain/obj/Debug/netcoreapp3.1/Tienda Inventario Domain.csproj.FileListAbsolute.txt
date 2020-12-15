@@ -1,0 +1,15 @@
+C:\Users\user\source\repos\Solution Inventario\Tienda Inventario Domain\bin\Debug\netcoreapp3.1\Tienda Inventario Domain.deps.json
+C:\Users\user\source\repos\Solution Inventario\Tienda Inventario Domain\bin\Debug\netcoreapp3.1\Tienda Inventario Domain.dll
+C:\Users\user\source\repos\Solution Inventario\Tienda Inventario Domain\obj\Debug\netcoreapp3.1\Tienda Inventario Domain.csprojAssemblyReference.cache
+C:\Users\user\source\repos\Solution Inventario\Tienda Inventario Domain\obj\Debug\netcoreapp3.1\Tienda Inventario Domain.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\Solution Inventario\Tienda Inventario Domain\obj\Debug\netcoreapp3.1\Tienda Inventario Domain.AssemblyInfo.cs
+C:\Users\user\source\repos\Solution Inventario\Tienda Inventario Domain\obj\Debug\netcoreapp3.1\Tienda Inventario Domain.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\Solution Inventario\Tienda Inventario Domain\bin\Debug\netcoreapp3.1\Tienda Inventario Domain.runtimeconfig.json
+C:\Users\user\source\repos\Solution Inventario\Tienda Inventario Domain\bin\Debug\netcoreapp3.1\Tienda Inventario Domain.runtimeconfig.dev.json
+C:\Users\user\source\repos\Solution Inventario\Tienda Inventario Domain\obj\Debug\netcoreapp3.1\Tienda Inventario Domain.genruntimeconfig.cache
+C:\Users\user\source\repos\Solution Inventario\Tienda Inventario Domain\bin\Debug\netcoreapp3.1\Tienda Inventario Domain.pdb
+C:\Users\user\source\repos\Solution Inventario\Tienda Inventario Domain\obj\Debug\netcoreapp3.1\Tienda Inventario Domain.dll
+C:\Users\user\source\repos\Solution Inventario\Tienda Inventario Domain\obj\Debug\netcoreapp3.1\Tienda Inventario Domain.pdb
+C:\Users\user\source\repos\Solution Inventario\Tienda Inventario Domain\bin\Debug\netcoreapp3.1\Tienda_Inventario_SharedKernel.dll
+C:\Users\user\source\repos\Solution Inventario\Tienda Inventario Domain\bin\Debug\netcoreapp3.1\Tienda_Inventario_SharedKernel.pdb
+C:\Users\user\source\repos\Solution Inventario\Tienda Inventario Domain\obj\Debug\netcoreapp3.1\Tienda Inventario Domain.csproj.CopyComplete

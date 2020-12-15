@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tienda Inventario Infraestructura", "Tienda Inventario Infraestructura\Tienda Inventario Infraestructura.csproj", "{3A5D2712-0798-4BBC-A60D-59B6E40D1262}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E77B115C-C8FA-4067-B58B-3B8F114CC22E} = {E77B115C-C8FA-4067-B58B-3B8F114CC22E}
+		{AFE439DA-676A-4A7B-BB69-16C35F27B2E6} = {AFE439DA-676A-4A7B-BB69-16C35F27B2E6}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tienda Inventario Domain", "Tienda Inventario Domain\Tienda Inventario Domain.csproj", "{E77B115C-C8FA-4067-B58B-3B8F114CC22E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AFE439DA-676A-4A7B-BB69-16C35F27B2E6} = {AFE439DA-676A-4A7B-BB69-16C35F27B2E6}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tienda_Inventario_SharedKernel", "Tienda Producto SharedKernel\Tienda_Inventario_SharedKernel.csproj", "{AFE439DA-676A-4A7B-BB69-16C35F27B2E6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TiendaInventario.WebApp", "TiendaInventario.WebApp\TiendaInventario.WebApp.csproj", "{2F2B5646-225B-4880-82E0-1D429F1196BB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{39CF4E7B-75EC-460B-9A6A-D2BF1F4A068B} = {39CF4E7B-75EC-460B-9A6A-D2BF1F4A068B}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tienda_Inventario_Applicacion", "Tienda_Inventario_Applicacion\Tienda_Inventario_Applicacion.csproj", "{39CF4E7B-75EC-460B-9A6A-D2BF1F4A068B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E77B115C-C8FA-4067-B58B-3B8F114CC22E} = {E77B115C-C8FA-4067-B58B-3B8F114CC22E}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A5D2712-0798-4BBC-A60D-59B6E40D1262}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A5D2712-0798-4BBC-A60D-59B6E40D1262}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A5D2712-0798-4BBC-A60D-59B6E40D1262}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A5D2712-0798-4BBC-A60D-59B6E40D1262}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E77B115C-C8FA-4067-B58B-3B8F114CC22E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E77B115C-C8FA-4067-B58B-3B8F114CC22E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E77B115C-C8FA-4067-B58B-3B8F114CC22E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E77B115C-C8FA-4067-B58B-3B8F114CC22E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFE439DA-676A-4A7B-BB69-16C35F27B2E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFE439DA-676A-4A7B-BB69-16C35F27B2E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFE439DA-676A-4A7B-BB69-16C35F27B2E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFE439DA-676A-4A7B-BB69-16C35F27B2E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F2B5646-225B-4880-82E0-1D429F1196BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F2B5646-225B-4880-82E0-1D429F1196BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F2B5646-225B-4880-82E0-1D429F1196BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F2B5646-225B-4880-82E0-1D429F1196BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39CF4E7B-75EC-460B-9A6A-D2BF1F4A068B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39CF4E7B-75EC-460B-9A6A-D2BF1F4A068B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39CF4E7B-75EC-460B-9A6A-D2BF1F4A068B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39CF4E7B-75EC-460B-9A6A-D2BF1F4A068B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD7C228C-FF3A-4875-9731-665A6CA81F1B}
+	EndGlobalSection
+EndGlobal

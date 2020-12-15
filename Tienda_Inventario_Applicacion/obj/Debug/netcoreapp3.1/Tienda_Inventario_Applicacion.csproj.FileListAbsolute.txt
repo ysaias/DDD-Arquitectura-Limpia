@@ -1,0 +1,14 @@
+C:\Users\user\source\repos\Solution Inventario\Tienda_Inventario_Applicacion\bin\Debug\netcoreapp3.1\Tienda_Inventario_Applicacion.deps.json
+C:\Users\user\source\repos\Solution Inventario\Tienda_Inventario_Applicacion\bin\Debug\netcoreapp3.1\Tienda_Inventario_Applicacion.dll
+C:\Users\user\source\repos\Solution Inventario\Tienda_Inventario_Applicacion\obj\Debug\netcoreapp3.1\Tienda_Inventario_Applicacion.csprojAssemblyReference.cache
+C:\Users\user\source\repos\Solution Inventario\Tienda_Inventario_Applicacion\obj\Debug\netcoreapp3.1\Tienda_Inventario_Applicacion.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\Solution Inventario\Tienda_Inventario_Applicacion\obj\Debug\netcoreapp3.1\Tienda_Inventario_Applicacion.AssemblyInfo.cs
+C:\Users\user\source\repos\Solution Inventario\Tienda_Inventario_Applicacion\obj\Debug\netcoreapp3.1\Tienda_Inventario_Applicacion.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\Solution Inventario\Tienda_Inventario_Applicacion\bin\Debug\netcoreapp3.1\Tienda_Inventario_Applicacion.pdb
+C:\Users\user\source\repos\Solution Inventario\Tienda_Inventario_Applicacion\bin\Debug\netcoreapp3.1\Tienda Inventario Domain.dll
+C:\Users\user\source\repos\Solution Inventario\Tienda_Inventario_Applicacion\bin\Debug\netcoreapp3.1\Tienda_Inventario_SharedKernel.dll
+C:\Users\user\source\repos\Solution Inventario\Tienda_Inventario_Applicacion\bin\Debug\netcoreapp3.1\Tienda Inventario Domain.pdb
+C:\Users\user\source\repos\Solution Inventario\Tienda_Inventario_Applicacion\bin\Debug\netcoreapp3.1\Tienda_Inventario_SharedKernel.pdb
+C:\Users\user\source\repos\Solution Inventario\Tienda_Inventario_Applicacion\obj\Debug\netcoreapp3.1\Tienda_Inventario_Applicacion.csproj.CopyComplete
+C:\Users\user\source\repos\Solution Inventario\Tienda_Inventario_Applicacion\obj\Debug\netcoreapp3.1\Tienda_Inventario_Applicacion.dll
+C:\Users\user\source\repos\Solution Inventario\Tienda_Inventario_Applicacion\obj\Debug\netcoreapp3.1\Tienda_Inventario_Applicacion.pdb

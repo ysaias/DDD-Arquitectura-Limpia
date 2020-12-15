@@ -1,0 +1,19 @@
+C:\Users\user\source\repos\Solution Inventario\Tienda Inventario Infraestructura\bin\Debug\netcoreapp3.1\Tienda Inventario Infraestructura.deps.json
+C:\Users\user\source\repos\Solution Inventario\Tienda Inventario Infraestructura\bin\Debug\netcoreapp3.1\Tienda Inventario Infraestructura.dll
+C:\Users\user\source\repos\Solution Inventario\Tienda Inventario Infraestructura\obj\Debug\netcoreapp3.1\Tienda Inventario Infraestructura.csprojAssemblyReference.cache
+C:\Users\user\source\repos\Solution Inventario\Tienda Inventario Infraestructura\obj\Debug\netcoreapp3.1\Tienda Inventario Infraestructura.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\Solution Inventario\Tienda Inventario Infraestructura\obj\Debug\netcoreapp3.1\Tienda Inventario Infraestructura.AssemblyInfo.cs
+C:\Users\user\source\repos\Solution Inventario\Tienda Inventario Infraestructura\bin\Debug\netcoreapp3.1\Tienda Inventario Infraestructura.runtimeconfig.json
+C:\Users\user\source\repos\Solution Inventario\Tienda Inventario Infraestructura\bin\Debug\netcoreapp3.1\Tienda Inventario Infraestructura.runtimeconfig.dev.json
+C:\Users\user\source\repos\Solution Inventario\Tienda Inventario Infraestructura\obj\Debug\netcoreapp3.1\Tienda Inventario Infraestructura.genruntimeconfig.cache
+C:\Users\user\source\repos\Solution Inventario\Tienda Inventario Infraestructura\obj\Debug\netcoreapp3.1\Tienda Inventario Infraestructura.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\Solution Inventario\Tienda Inventario Infraestructura\bin\Debug\netcoreapp3.1\Tienda Inventario Infraestructura.pdb
+C:\Users\user\source\repos\Solution Inventario\Tienda Inventario Infraestructura\obj\Debug\netcoreapp3.1\Tienda Inventario Infraestructura.dll
+C:\Users\user\source\repos\Solution Inventario\Tienda Inventario Infraestructura\obj\Debug\netcoreapp3.1\Tienda Inventario Infraestructura.pdb
+C:\Users\user\source\repos\Solution Inventario\Tienda Inventario Infraestructura\bin\Debug\netcoreapp3.1\Tienda Inventario Domain.dll
+C:\Users\user\source\repos\Solution Inventario\Tienda Inventario Infraestructura\bin\Debug\netcoreapp3.1\Tienda_Inventario_SharedKernel.dll
+C:\Users\user\source\repos\Solution Inventario\Tienda Inventario Infraestructura\bin\Debug\netcoreapp3.1\Tienda Inventario Domain.pdb
+C:\Users\user\source\repos\Solution Inventario\Tienda Inventario Infraestructura\bin\Debug\netcoreapp3.1\Tienda_Inventario_SharedKernel.pdb
+C:\Users\user\source\repos\Solution Inventario\Tienda Inventario Infraestructura\obj\Debug\netcoreapp3.1\Tienda Inventario Infraestructura.csproj.CopyComplete
+C:\Users\user\source\repos\Solution Inventario\Tienda Inventario Infraestructura\bin\Debug\netcoreapp3.1\Tienda_Inventario_Applicacion.dll
+C:\Users\user\source\repos\Solution Inventario\Tienda Inventario Infraestructura\bin\Debug\netcoreapp3.1\Tienda_Inventario_Applicacion.pdb

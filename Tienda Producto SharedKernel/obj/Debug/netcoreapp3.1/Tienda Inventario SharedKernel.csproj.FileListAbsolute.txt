@@ -1,0 +1,12 @@
+C:\Users\user\source\repos\Solution Inventario\Tienda Producto SharedKernel\bin\Debug\netcoreapp3.1\Tienda Inventario SharedKernel.deps.json
+C:\Users\user\source\repos\Solution Inventario\Tienda Producto SharedKernel\bin\Debug\netcoreapp3.1\Tienda Inventario SharedKernel.dll
+C:\Users\user\source\repos\Solution Inventario\Tienda Producto SharedKernel\bin\Debug\netcoreapp3.1\Tienda Inventario SharedKernel.pdb
+C:\Users\user\source\repos\Solution Inventario\Tienda Producto SharedKernel\obj\Debug\netcoreapp3.1\Tienda Inventario SharedKernel.csprojAssemblyReference.cache
+C:\Users\user\source\repos\Solution Inventario\Tienda Producto SharedKernel\obj\Debug\netcoreapp3.1\Tienda Inventario SharedKernel.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\Solution Inventario\Tienda Producto SharedKernel\obj\Debug\netcoreapp3.1\Tienda Inventario SharedKernel.AssemblyInfo.cs
+C:\Users\user\source\repos\Solution Inventario\Tienda Producto SharedKernel\obj\Debug\netcoreapp3.1\Tienda Inventario SharedKernel.dll
+C:\Users\user\source\repos\Solution Inventario\Tienda Producto SharedKernel\obj\Debug\netcoreapp3.1\Tienda Inventario SharedKernel.pdb
+C:\Users\user\source\repos\Solution Inventario\Tienda Producto SharedKernel\bin\Debug\netcoreapp3.1\Tienda Inventario SharedKernel.runtimeconfig.json
+C:\Users\user\source\repos\Solution Inventario\Tienda Producto SharedKernel\bin\Debug\netcoreapp3.1\Tienda Inventario SharedKernel.runtimeconfig.dev.json
+C:\Users\user\source\repos\Solution Inventario\Tienda Producto SharedKernel\obj\Debug\netcoreapp3.1\Tienda Inventario SharedKernel.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\Solution Inventario\Tienda Producto SharedKernel\obj\Debug\netcoreapp3.1\Tienda Inventario SharedKernel.genruntimeconfig.cache
