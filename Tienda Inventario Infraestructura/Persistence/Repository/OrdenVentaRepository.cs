@@ -34,6 +34,7 @@ namespace Tienda_Inventario_Infraestructura
                 OrdenVenta ordenVenta1 = new OrdenVenta(
                     ordenVenta.Id,
                     ordenVenta.CodigoFactura,
+                    ordenVenta.Estado,
                     obj
                 );
 
