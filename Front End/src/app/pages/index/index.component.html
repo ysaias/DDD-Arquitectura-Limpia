@@ -1,0 +1,118 @@
+    <br><br>
+    <div class="card  m-auto" style="width: 80%;">
+        <div class="card-header">
+            CRUD PRODUCTO
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">Insertar</h5>
+            <div class="form-group row">
+                <label for="staticEmail" class="col-sm-2 col-form-label">Nombre:</label>
+                <div class="col-sm-10">
+                    <input type="text"  required class="form-control-plaintext" [(ngModel)]="nombre" placeholder="Ingre el nombre del producto">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="staticEmail" class="col-sm-2 col-form-label">Ingrese precio:</label>
+                <div class="col-sm-10">
+                    <input type="number" required class="form-control-plaintext" [(ngModel)]="precio" placeholder="Ingre el precio del producto">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="staticEmail" class="col-sm-2 col-form-label">Ingrese Cantidad:</label>
+                <div class="col-sm-10">
+                    <input type="number" required class="form-control-plaintext" [(ngModel)]="cantidad" placeholder="Ingre la cantidad del producto">
+                </div>
+            </div>
+            <button class="btn btn-primary" (click)="insert()">Insertar</button>
+        </div>
+    </div>
+    <br>
+    <div class="card  m-auto" style="width: 80%;">
+        <div class="card-header">
+            Lista Productos
+        </div>
+        <div class="card-body">
+            <table class="table">
+                <thead>
+                    <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Cantidad</th>
+                    <th scope="col">Precio</th>
+                    <th scope="col">Operaciones</th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let item of listProducto; let i = index" >
+                        <th scope="row">{{i+1}}</th>
+                        <td>{{item.nombre}}</td>
+                        <td>{{item.cantidad}}</td>
+                        <td>{{item.precio}}</td>
+                        <td><i class="fas fa-edit" (click)="get(item.id)" style="color: blue;"></i> | <i style="color: red;" (click)="delete(item.id)" class="fas fa-trash"></i>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <hr>
+<!-- listado de entregas -->
+    <br>
+    <div class="card  m-auto" style="width: 80%;">
+        <div class="card-header">
+            Listado de Orden Ventas
+        </div>
+        <div class="card-body">
+            <table class="table">
+                <thead>
+                    <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Codigo</th>
+                    <th scope="col">Estado</th>
+                    <th scope="col">Operaciones</th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let item of listOrdenProducto; let i = index" >
+                        <th scope="row">{{i+1}}</th>
+                            <td>{{item.codigoFactura}}</td>
+                            <td>{{item.estado}}</td>
+                            <td style="display: flex; justify-content: space-between;">
+                                <i (click)="openModal('ordenVenta', item.id)" class="fas fa-eye"  style="margin-right: 40px;"  style="color: blue;"></i>  
+                                <i title="listo para despachar" *ngIf="item.estado === 'Pendiente'" class="fas fa-check" (click)="listoDespacho(item.id)" style="color: yellow;"></i> 
+                                <i title="Anular"  *ngIf="item.estado === 'Pendiente'" class="fas fa-times" (click)="anulado(item.id)" style="color: red;"></i>
+                                <i title="Despachar" *ngIf="item.estado === 'ListoParaDespacho'" class="fas fa-check" (click)="despachado(item.id)" style="color: green;"></i>  
+                                <i title="Anular" *ngIf="item.estado === 'ListoParaDespacho'" class="fas fa-times" (click)="anulado(item.id)" style="color: red;"></i>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <hr>
+    <br>
+    <jw-modal id="ordenVenta"  >
+        <h1>Orden de venta</h1>
+        <h4 *ngIf="obj">{{obj.codigoFactura}}</h4>
+        <h4 *ngIf="obj">{{obj.estado}}</h4>
+        <br>
+        <table class="table" *ngIf="obj" >
+            <thead>
+                <tr>
+                <th scope="col">#</th>
+                <th scope="col">Producto</th>
+                <th scope="col">Cantidad</th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let item of obj.productoItems; let i = index">
+                    <th scope="row">{{i+1}}</th>
+                    <td *ngFor="let item2 of listProducto | filtroBuscador: item.producto_Id + '': 'id' ">{{item2.nombre}}</td>
+                    <td>{{item.cantidad}}</td>
+                </tr>
+            </tbody>
+        </table>
+        <div style="display: flex; justify-content: flex-end">
+            <button class="btn btn-primary" (click)="closeModal('ordenVenta');">Close</button>
+        </div>
+    </jw-modal>
